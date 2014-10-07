@@ -1,25 +1,20 @@
 {
-  "name": "chromedriver",
-  "version": "2.10.0-1",
-  "keywords": ["chromedriver", "selenium"],
-  "description": "ChromeDriver for Selenium",
+  "name": "browserstack-connect",
+  "version": "1.0",
+  "keywords": ["browserstack"],
+  "description": "BrowserStack binary download",
   "homepage": "https://github.com/giggio/node-chromedriver",
   "repository": {
     "type": "git",
-    "url": "git://github.com/giggio/node-chromedriver.git"
+    "url": "https://github.com/maba1984/node-browserstack-connect"
   },
-  "licenses": [ {
-    "type": "Apache 2.0",
-    "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
-  } ],
   "author": {
-    "name": "Giovanni Bassi",
-    "email": "giggio@giggio.net",
-    "url": "http://www.lambda3.com.br"
+    "name": "Marius Bakowski",
+    "email": "marius.bakowski@googlemail.com"
   },
-  "main": "lib/chromedriver",
+  "main": "lib/BrowserStackLocal",
   "bin": {
-    "chromedriver": "./bin/chromedriver"
+    "BrowserStackLocal": "./lib/BrowserstackLocal/BrowserStackLocal"
   },
   "scripts": {
     "install": "node install.js"
