@@ -1,23 +1,12 @@
 {
   "name": "browserstack-connect",
-  "version": "1.0",
-  "keywords": ["browserstack"],
+  "version": "0.0.1",
+  "private":true,
   "description": "BrowserStack binary download",
-  "homepage": "https://github.com/giggio/node-chromedriver",
+  "main": "install.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/maba1984/node-browserstack-connect"
-  },
-  "author": {
-    "name": "Marius Bakowski",
-    "email": "marius.bakowski@googlemail.com"
-  },
-  "main": "lib/BrowserStackLocal",
-  "bin": {
-    "BrowserStackLocal": "./lib/BrowserstackLocal/BrowserStackLocal"
-  },
-  "scripts": {
-    "install": "node install.js"
+    "url": "https://github.com/maba1984/node-browserstack-connect.git"
   },
   "dependencies": {
     "adm-zip": "0.2.1",
